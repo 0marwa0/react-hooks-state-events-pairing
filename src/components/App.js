@@ -42,17 +42,7 @@ const onSort=()=>{
 
 }
 
-function compare( a, b ) {
-  if ( a.last_nom < b.last_nom ){
-    return -1;
-  }
-  if ( a.last_nom > b.last_nom ){
-    return 1;
-  }
-  return 0;
-}
 
-objs.sort( compare );
   return (
     <div className="App"><iframe
         width="719"
